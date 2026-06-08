@@ -1,5 +1,5 @@
 with source as (
-    select * from {{ source('weather', 'raw_weather_stockholm') }}
+    select * from {{ source('weather', 'raw_weather') }}
 ),
 
 renamed as (
