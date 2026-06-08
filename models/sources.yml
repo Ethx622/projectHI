@@ -1,8 +1,14 @@
 version: 2
-
+ 
 sources:
   - name: ebay
     database: EBAY_PIPELINE
     schema: RAW
     tables:
       - name: raw_ebay_listings
+ 
+  - name: weather
+    database: EBAY_PIPELINE
+    schema: RAW
+    tables:
+      - name: raw_weather_stockholm
